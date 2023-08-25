@@ -1,0 +1,47 @@
+
+
+#minutes, #seconds{
+width: 100px;
+height: 100px;
+/*margin-top: 10px;*/
+
+}
+h1{
+padding-top: 5px;
+font-weight: 700;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: crimson;
+}
+.time{
+position:relative;
+margin-top:20%;
+font-size: 70px;
+background: aquamarine;
+width:50rem;
+box-shadow: 5px 5px 5px grey;
+height: 18rem;
+text-align: center;
+margin-left: 27%;
+}
+#hours,.buttons{
+text-align: center;
+}
+#start, #stop, #pause{
+box-shadow: 5px 5px 5px;
+}
+@media only screen and (max-width: 600px) {
+  .time {
+
+width:100%;
+margin-left: 0px;
+font-size: 40px;
+  }
+}
+
+@media only screen and ( max-width:768px) {
+  .time {
+width:100%;
+margin-left: 0px;
+font-size: 40px;
+  }
+}
